@@ -22,16 +22,16 @@ import org.jboss.resteasy.spi.HttpResponse;
 import org.slf4j.LoggerFactory;
 
 import com.sun.glass.ui.View;
+import com.url.concurrent.AsyncProcessingHandler;
+import com.url.enums.URLStatus;
+import com.url.model.ControllerTaskContext;
+import com.url.model.beans.StrategyResponseBean;
+import com.url.model.beans.URLBean;
+import com.url.model.strategy.StrategyContext;
+import com.url.model.strategy.impl.LoadAllUrlStrategyImpl;
+import com.url.model.strategy.impl.LoadUrlStrategy;
+import com.url.model.strategy.impl.UrlAddStrategyImpl;
 import com.url.request.UrlShortenerRequestBean;
-import com.urls.concurrent.AsyncProcessingHandler;
-import com.urls.db.URLBean;
-import com.urls.enums.URLStatus;
-import com.urls.model.ControllerTaskContext;
-import com.urls.model.beans.StrategyResponseBean;
-import com.urls.model.strategy.StrategyContext;
-import com.urls.model.strategy.impl.LoadAllUrlStrategyImpl;
-import com.urls.model.strategy.impl.LoadUrlStrategy;
-import com.urls.model.strategy.impl.UrlAddStrategyImpl;
 
 import ch.qos.logback.classic.Logger;
 

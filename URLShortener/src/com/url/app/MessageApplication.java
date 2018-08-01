@@ -5,9 +5,9 @@ import java.util.Set;
 
 import javax.ws.rs.core.Application;
 
+import com.url.db.inmemory.UrlMap;
 import com.url.rest.MessageRestService;
 import com.url.rest.URLShortenerService;
-import com.urls.db.inmemory.UrlMap;
 
 public class MessageApplication extends Application {
 	private Set<Object> singletons = new HashSet<Object>();

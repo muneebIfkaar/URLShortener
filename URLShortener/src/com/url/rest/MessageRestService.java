@@ -9,8 +9,8 @@ import javax.ws.rs.core.Response;
 
 import org.slf4j.LoggerFactory;
 
+import com.url.model.strategy.impl.LoadAllUrlStrategyImpl;
 import com.url.request.UrlShortenerRequestBean;
-import com.urls.model.strategy.impl.LoadAllUrlStrategyImpl;
 
 import ch.qos.logback.classic.Logger;
 
